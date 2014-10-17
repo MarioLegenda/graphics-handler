@@ -1,0 +1,22 @@
+{
+    "name": "mario-legenda/graphics-handler",
+    "description": "Resizes one or multiple images to desired size and saves it ( or them ) on the server",
+    "keywords": ["php graphics", "image file resize", "multiple image file resize"],
+    "homepage": "https://github.com/MarioLegenda",
+    "type": "library",
+    "license": "MIT",
+    "version" : "0.0.1",
+    "authors": [
+        {
+            "name": "Mario Škrlec",
+            "email": "whitepostmail@gmail.com",
+            "homepage": "https://github.com/MarioLegenda"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {"UrlMatcher\\": "src/GraphicsHandler"}
+    }
+}
